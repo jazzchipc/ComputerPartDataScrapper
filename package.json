@@ -1,0 +1,40 @@
+{
+  "name": "computer-part-data-scrapper",
+  "version": "1.0.0",
+  "description": "A scrapper for computer part rankings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazzchipc/computer-part-data-scrapper.git"
+  },
+  "keywords": [
+    "scrapper",
+    "computer",
+    "parts",
+    "node"
+  ],
+  "author": "José Aleixo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jazzchipc/computer-part-data-scrapper/issues"
+  },
+  "homepage": "https://github.com/jazzchipc/computer-part-data-scrapper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
